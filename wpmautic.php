@@ -124,7 +124,7 @@ function wpmautic_form_shortcode( $atts )
 		return false;
 	}
 
-	return '<script type="text/javascript" src="' . $base_url . '/form/generate.js?id=' . $atts['id'] . '"></script>';
+	return '<script type="text/javascript" src="' . $base_url . '/form/' . $atts['id'] . '/generate.js"></script>';
 }
 
 function wpmautic_dwc_shortcode( $atts, $content = null)
